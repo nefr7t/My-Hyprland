@@ -1,60 +1,59 @@
 # 🌌 My Hyprland Config
 
-Привет! Это мои **персональные конфиги** для **Hyprland** с Waybar, Rofi, Kitty, Neofetch, Cava и другими инструментами.  
-⚠️ **Внимание:** конфиг полностью под мой компьютер, особенно под разрешения экранов и пути к файлам. Перед использованием **обязательно проверяй все настройки**!
+Hello! These are my **personal configuration files** for **Hyprland** with Waybar, Rofi, Kitty, Neofetch, Cava, and other tools.
+⚠️ **Warning:** this setup is tailored for my hardware — especially display resolutions and file paths.
+Before using, **double-check all settings** to avoid issues.
 
 ---
 
-## ✨ Скриншоты
+## ✨ Screenshots
 
-**Тема 1:**  
+**Theme 1**
 ![Screenshot1](Screenshot1.png)
 
-**Тема 2:**  
+**Theme 2**
 ![Screenshot2](Screenshot2.jpg)
 
 ---
 
-## 📁 Структура репозитория
+## 📁 Repository Structure
 
-- **1theme/** — первая тема (Hyprland, Waybar, Rofi и т.д.)
-    
-- **2theme/** — вторая тема
-    
-- **…** — остальные конфиги
-    
-
----
-
-## ⚡ Как использовать
-
-Скопируй нужные конфиги в `~/.config/` или используй выборочно:  
-`cp -r 1theme/* ~/.config/`
-
-> 💡 Совет: перед копированием **сделай бэкап своих текущих конфигов**.
+```
+.
+├── 1theme/   # First theme (Hyprland, Waybar, Rofi, etc.)
+├── 2theme/   # Second theme
+└── ...       # Other files
+```
 
 ---
 
-## 🛠 Требования
+## ⚡ Usage
 
-- [Hyprland](https://hyprland.org)
-    
-- [Waybar](https://github.com/Alexays/Waybar)
-    
-- [Kitty](https://sw.kovidgoyal.net/kitty/)
-    
-- [Rofi](https://github.com/davatorium/rofi)
-    
-- [Neofetch](https://github.com/dylanaraps/neofetch)
-    
-- [Cava](https://github.com/karlstav/cava)
-    
+Copy the desired theme into `~/.config/`:
+
+```bash
+cp -r 1theme/* ~/.config/
+```
+
+💡 **Tip:** always back up your current configs before overwriting.
 
 ---
 
-## ⚠ Важно
+## 🛠 Requirements
 
-Перед применением **проверяй пути, разрешения экранов и другие индивидуальные настройки**, иначе конфиг может не работать корректно.
+* 🖥 [Hyprland](https://hyprland.org) – Window manager
+* 📊 [Waybar](https://github.com/Alexays/Waybar) – Status bar
+* 🐱 [Kitty](https://sw.kovidgoyal.net/kitty/) – Terminal emulator
+* 🎨 [Rofi](https://github.com/davatorium/rofi) – App launcher
+* 📟 [Neofetch](https://github.com/dylanaraps/neofetch) – System info tool
+* 🔊 [Cava](https://github.com/karlstav/cava) – Audio visualizer
 
 ---
 
+## ⚠ Important Notes
+
+* Check **display resolutions**, **paths**, and **other system-specific settings** before applying.
+* Some configs may not work out of the box on a different setup.
+* Recommended: test one component at a time (Hyprland → Waybar → Rofi, etc.).
+
+---
