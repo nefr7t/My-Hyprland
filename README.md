@@ -1,4 +1,4 @@
-# 🌌 My Hyprland Config (outdated, remaking to NixOS flakes)
+# 🌌 My Hyprland Config (outdated, remaking with NixOS flakes)
 
 Hello! These are my **personal configuration files** for **Hyprland** with Waybar, Rofi, Kitty, Neofetch, Cava, and other tools.
 ⚠️ **Warning:** this setup is tailored for my hardware — especially display resolutions and file paths.
